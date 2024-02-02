@@ -1,13 +1,24 @@
 @charset "UTF-8";
 
 body{
+    background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+
+
+/*
+
+
     height: 100vh;
     background-color: black;
     background-image: url('imagens/wallpaper002.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+
+
+*/
+
 
 main{
     background-color: white;
@@ -17,3 +28,9 @@ main{
     border: 1px solid darkblue;
     border-radius: 15px;
 }
+
+/* Shorthand - background
+
+color > image > position > repeat > [size] > attachment
+
+*/
