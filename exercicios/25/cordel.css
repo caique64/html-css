@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    padding: 15px 15px 15px 15px;
+
+}
+
+header > h1{
+    color: white;
+    font-family: "Passion One", sans-serif;
+    font-size: 80px;
+    text-align: center;
+    height: 10%;
+    font-variant: small-caps;
+    margin: 0px;
+}
+
+header > p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+span > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+
+
+
+
+
+section.vazio{
+    background-color: white;
+    font-family: "Sriracha";
+    font-weight: bolder;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-family: "Sriracha";
+    font-weight: bolder;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.fundo1 > p{
+    background-color: rgba(0, 0, 0, 0.363);
+    width: 400px;
+}
+
+section.fundo2 > p{
+    background-color: rgba(0, 0, 0, 0.363);
+    width: 400px;
+}
+
+section.fundo1{
+    background-image: url(imagens/background001.jpg);
+
+}
+
+section.fundo2{
+    background-image: url(imagens/background002.jpg);
+
+}
+
+
+
+
+
+
+footer{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 2px 10px 2px 10px;
+}
