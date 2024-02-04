@@ -15,9 +15,8 @@ header{
 header > h1{
     color: white;
     font-family: "Passion One", sans-serif;
-    font-size: 80px;
+    font-size: 10vh;
     text-align: center;
-    height: 10%;
     font-variant: small-caps;
     margin: 0px;
 }
@@ -27,6 +26,7 @@ header > p{
     color: white;
     text-align: center;
     font-style: italic;
+    font-size: 2vh;
 }
 
 span > a{
@@ -40,40 +40,50 @@ span > a{
 
 
 
-
 section.vazio{
     background-color: white;
     font-family: "Sriracha";
-    font-weight: bolder;
+    padding-bottom: 3em;
 }
 
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     font-family: "Sriracha";
-    font-weight: bolder;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 3vh;
 }
 
 section.fundo1 > p{
     background-color: rgba(0, 0, 0, 0.363);
-    width: 400px;
+    display: inline-block;
+    color: white;
+    text-shadow: 1px 2px 1px black;
+    box-shadow: inset 6px 6px 13px 0px black;
 }
 
 section.fundo2 > p{
     background-color: rgba(0, 0, 0, 0.363);
-    width: 400px;
+    display: inline-block;
+    color: white;
+    text-shadow: 1px 2px 1px rgb(0, 0, 0);
 }
 
 section.fundo1{
     background-image: url(imagens/background001.jpg);
-
+    background-position: right center;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.633);
+    background-attachment: fixed;
 }
 
 section.fundo2{
     background-image: url(imagens/background002.jpg);
-
+    background-position: center center;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.566);
+    background-attachment: fixed;
 }
 
 
