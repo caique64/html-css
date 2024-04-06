@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    table{
+        width: 500px;
+        border-collapse: collapse;
+        position: relative;
+    }
+    td, th{
+        border: 1px solid black;
+        padding: 10px;
+    }
+    thead, tfoot{
+        background-color: lightslategray;
+        color: white;
+    }
+    td.num{
+    text-align: right;
+    }
+    caption{
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 10px;
+        background-color: lightgray;
+    }
+    tbody > tr:nth-child(2n){
+        background-color: lightgray;
+    }
+
+    thead > tr > th{
+        position: sticky;
+        top: -1px;
+        background-color: lightslategray;
+    }
+
+</style>
+
+<body>
+    <h1>Uso de tabelas grandes</h1>
+
+    <table>
+        <caption>População das Unidades Federativas </caption>
+        <thead>
+            <tr>
+            <th scope="col">Posição</th>
+            <th scope="col">Unidade federativa</th>
+            <th scope="col" style="width: 50px;">População</th>
+            <th scope="col">% da pop <br> total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+                <td>21,9%</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+                <td>10,1%</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+                <td>8,2%</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Bahia</td>
+                <td class="num">14 873 064</td>
+                <td>7,1%</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Paraná</td>
+                <td class="num">11 433 957</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11 377 239</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Pernambuco</td>
+                <td class="num">9 557 071</td>
+                <td>4,5%</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Ceará</td>
+                <td class="num">9 132 078</td>
+                <td>4,3%</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Pará</td>
+                <td class="num">8 602 865</td>
+                <td>4,1%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td class="num">7 164 788</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Maranhão</td>
+                <td class="num">7 075 181</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Goiás</td>
+                <td class="num">7 018 354</td>
+                <td>3,3%</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Amazonas</td>
+                <td class="num">4 144 597</td>
+                <td>2,0%</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Espírito Santo</td>
+                <td class="num">4 016 650</td>
+                <td>1,9%</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Paraíba</td>
+                <td class="num">4 018 127</td>
+                <td>1,9%</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>Rio Grande do Norte</td>
+                <td class="num">3 506 853</td>
+                <td>1,7%</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>Mato Grosso</td>
+                <td class="num">3 484 466</td>
+                <td>1,7%</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>Alagoas</td>
+                <td class="num">3 337 357</td>
+                <td>1,6</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>Piauí</td>
+                <td class="num">3 273 277</td>
+                <td>1,6%</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>Distrito Federal</td>
+                <td class="num">3 015 268</td>
+                <td>1,4%</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>27</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>-</th>
+                <th scope="row">Total de habitantes</th>
+                <td>0000</td>
+                <td>-</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste unde modi quae, eaque rerum recusandae voluptatem error eveniet amet libero omnis, quod nostrum magnam voluptate aut laudantium praesentium laborum dolor! Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nesciunt quod sint ullam hic velit, reiciendis reprehenderit, sunt fugiat corporis pariatur praesentium accusamus veniam officiis, quibusdam dolore quae? Incidunt, debitis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam fugiat facere, provident expedita at illo labore quod eius. Corporis labore qui quod facilis facere rem eum tempore, ullam unde quia.
+    </p>
+
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam vel cumque eius fuga molestiae, optio labore suscipit quo, molestias nemo illum quibusdam quod, veritatis deleniti nulla quia pariatur tempora ea! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nulla maiores incidunt aliquam totam impedit vel officia optio sit pariatur atque dolor vitae, iure dolores quis consectetur quaerat nemo illo! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti nesciunt quae a reprehenderit in consequuntur itaque, dolor fuga ducimus blanditiis minus exercitationem voluptates, aspernatur sint maiores nemo iusto nam illo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum voluptatibus unde dolorum consectetur nulla incidunt soluta, ab officiis et doloremque perferendis beatae facilis distinctio id illum voluptas vero dolor ipsam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime itaque exercitationem quidem atque reprehenderit officiis animi rerum iusto, sed deserunt eum fuga perferendis deleniti impedit adipisci cupiditate veritatis repellat magni!
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident architecto maiores autem necessitatibus repellendus illo suscipit aliquam, veritatis non corporis. Cupiditate vel molestias minus laudantium. Aut nihil repellat perferendis iusto? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, voluptatum! Hic, iste. Ea totam omnis incidunt impedit perspiciatis placeat eveniet fuga, ullam pariatur? Debitis at atque illo omnis qui quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nesciunt odit, quo ducimus natus blanditiis? Aspernatur, magnam? Minus perferendis minima nam, labore, quaerat eius asperiores quia nulla, obcaecati deserunt soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, debitis blanditiis libero optio ipsum sapiente voluptas magnam quaerat quasi sint autem, omnis, esse quisquam voluptatum repellendus ducimus eveniet facere necessitatibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam cupiditate eveniet saepe. Dolore optio quis voluptate, blanditiis aut atque pariatur sapiente porro voluptatum et voluptates illo illum veniam numquam ipsum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim ipsa laboriosam tempore numquam, voluptas eos sunt a sed dolores sapiente dignissimos aperiam omnis corrupti odit ex maxime, nulla dolor voluptatibus?
+
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eligendi quas dolor ab culpa deleniti voluptates unde suscipit consectetur, veniam adipisci odio nulla, assumenda perspiciatis dicta inventore, placeat repudiandae dolorem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptatum dolorem eum, excepturi, omnis assumenda explicabo ipsa reprehenderit possimus molestiae commodi! Animi veniam at libero quibusdam, voluptatibus illum laboriosam tempora.
+    </p>
+</body>
+</html>
