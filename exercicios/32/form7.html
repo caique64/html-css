@@ -6,7 +6,7 @@
     <title>Exemplo de form</title>
 </head>
 <body>
-    <form action="cadastro.php" method="get" autocomplete="on">
+    <form action="cadastro.php" method="post" autocomplete="on">
         <p >
             <label for="iest">Estado:</label>
             <select name="Estado" id="iest" >
@@ -52,10 +52,16 @@
         </p>
         <p>
             <label for="iprof">Profissão:</label>
-            <input type="text" name="prof" id="iprof">
-            <datalist>
-                Professor
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="ADM">Administrador</option>
+                <option value="PROF">Professor</option>
+                <option value="CON">Contabilista</option>
             </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensagem:</label> <br>
+            <textarea name="msg" id="imsg" cols="20" rows="3" ></textarea>
         </p>
         <p>
             <input type="reset" value="Resetar">
