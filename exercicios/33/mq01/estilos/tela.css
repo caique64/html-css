@@ -35,7 +35,9 @@ menu li{
 }
 
 article{
-    margin-left: 65vh;
-    margin-right: 65vh;
+    margin-left: 50vh;
+    margin-right: 50vh;
+width: 65vh;
+height: 65vh;
 }
 
