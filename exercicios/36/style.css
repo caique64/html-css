@@ -4,42 +4,79 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
     background-color: gray;
-    padding: 8px;
-    height: 14vh;
+    padding: 10px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header > h1{
     color: white;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.96);
-    margin-bottom: 10px;
+    border: 1px dotted black; /**/
+    flex: 0 0 200px;
 } 
+
+header > nav {
+    display: flex;
+    flex: 0 1 auto;
+    flex-flow: row wrap;
+    border: 1px dotted black;
+    
+}
+
 
 header > nav > a{
     text-decoration: none;
-    padding: 7px;
-    margin:2px;
+    padding: 6px;
+    margin: 3px;
     background-color: black;
     color: white;
     border-radius: 4px;
+
 }
 
-a:hover{
+
+
+header > nav > a:hover{
     color: black;
     background-color: white;
+    transition: background-color 0.5s;
 }
 
 body{
-    background-color: antiquewhite;
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    font-size: 1em;
 }
 
-main > div{
+main{
     background-color: white;
-    border-radius: 20px;
-    width: 90vw;
+    margin: 10px;
+    padding: 10px;
+    text-indent: 2em;
+    text-align: justify;
+    border-radius: 4px;
+    box-shadow: 1px 6px 10px rgba(0, 0, 0, 0.092);
+
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+main > div > h2{
+    border: 1px dotted black;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
     
 }
