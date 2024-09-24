@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+
+
+body{
+    background-color: red;
+}
+
+header{
+    justify-content: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+i{
+    color: white;
+    background-color: black;
+    padding: 8px;
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+
+    width: 100vw;
+    margin: ;
+    flex: 1 0 auto;
+    
+}
+
+i:hover{
+    background-color: white;
+    color: black;
+}
+
+nav > a{
+    display: none;
+}
